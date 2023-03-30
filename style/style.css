@@ -243,7 +243,7 @@ legend {
 
 .cards-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
 
@@ -253,7 +253,7 @@ legend {
 
 .card-item__description {
   height: 350px;
-  padding: 1.25rem;
+  padding: 1rem;
   background-color: #f0efef;
   border-bottom-right-radius: 60px;
   flex-grow: 1;
@@ -430,6 +430,9 @@ legend {
     margin-bottom: 15rem;
   }
 
+  .cards-wrapper {
+    grid-template-columns: 1fr;
+  }
   .card-item__header_img::after {
     right: 0;
   }
