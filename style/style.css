@@ -311,11 +311,12 @@ legend {
 
 .materials__infographics {
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .materials__infographics-img {
-  width: 100%;
+  object-fit: contain;
 }
 
 .materials__infographics-list {
@@ -438,10 +439,6 @@ legend {
   }
   .card-item__description {
     height: auto;
-  }
-
-  .materials__infographics-img {
-    width: 40%;
   }
 
   .office-materials__description {
